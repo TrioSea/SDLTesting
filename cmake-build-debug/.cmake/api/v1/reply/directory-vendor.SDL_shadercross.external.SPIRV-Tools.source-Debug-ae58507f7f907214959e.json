@@ -1,0 +1,101 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 398,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 411,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/libSPIRV-Tools.a"
+			],
+			"targetId" : "SPIRV-Tools-static::@b3373e1cebf04ab55fe2",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/libSPIRV-Tools-shared.so"
+			],
+			"targetId" : "SPIRV-Tools-shared::@b3373e1cebf04ab55fe2",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools",
+			"exportName" : "SPIRV-ToolsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SPIRV-Tools-static::@b3373e1cebf04ab55fe2",
+					"index" : 10
+				},
+				{
+					"id" : "SPIRV-Tools-shared::@b3373e1cebf04ab55fe2",
+					"index" : 9
+				}
+			],
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/CMakeFiles/Export/8d64bc3ee653eb494dac6da36f93ee74/SPIRV-ToolsTarget.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools",
+			"paths" : 
+			[
+				"cmake-build-debug/SPIRV-ToolsConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/source",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/source"
+	}
+}

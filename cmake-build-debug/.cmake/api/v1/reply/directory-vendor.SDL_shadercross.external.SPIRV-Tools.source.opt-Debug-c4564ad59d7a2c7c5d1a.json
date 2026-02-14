@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/source/opt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 294,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/opt/libSPIRV-Tools-opt.a"
+			],
+			"targetId" : "SPIRV-Tools-opt::@9296bdd756757e84f626",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-opt",
+			"exportName" : "SPIRV-Tools-optTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SPIRV-Tools-opt::@9296bdd756757e84f626",
+					"index" : 7
+				}
+			],
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/opt/CMakeFiles/Export/d257bb935daf189de1fcbd2fb3e29048/SPIRV-Tools-optTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-opt",
+			"paths" : 
+			[
+				"cmake-build-debug/SPIRV-Tools-optConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/source/opt",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/source/opt"
+	}
+}

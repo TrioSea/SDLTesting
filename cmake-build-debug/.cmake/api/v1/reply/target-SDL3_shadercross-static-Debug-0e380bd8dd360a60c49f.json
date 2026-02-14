@@ -1,0 +1,212 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "vendor/SDL_shadercross/libSDL3_shadercross.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"sdl_add_warning_options",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/CMakeLists.txt",
+			"vendor/SDL_shadercross/cmake/PrivateSdlFunctions.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 253,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 313,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 229,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-parameter"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/activeintriosea/CLionProjects/SDLTesting/vendor/SDL_shadercross/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/activeintriosea/CLionProjects/SDLTesting/cmake-build-debug/vendor/SDL/include-revision"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/activeintriosea/CLionProjects/SDLTesting/vendor/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/activeintriosea/CLionProjects/SDLTesting/vendor/SDL_shadercross/external/SPIRV-Cross"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					8
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-core::@25d06f1a535b7406a8cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-glsl::@25d06f1a535b7406a8cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-cpp::@25d06f1a535b7406a8cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-reflect::@25d06f1a535b7406a8cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-msl::@25d06f1a535b7406a8cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-hlsl::@25d06f1a535b7406a8cf"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "spirv-cross-c::@25d06f1a535b7406a8cf"
+		}
+	],
+	"id" : "SDL3_shadercross-static::@1f835af72d80d14cd503",
+	"name" : "SDL3_shadercross-static",
+	"nameOnDisk" : "libSDL3_shadercross.a",
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross",
+		"source" : "vendor/SDL_shadercross"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "vendor/SDL_shadercross/include/SDL3_shadercross/SDL_shadercross.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendor/SDL_shadercross/src/SDL_shadercross.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

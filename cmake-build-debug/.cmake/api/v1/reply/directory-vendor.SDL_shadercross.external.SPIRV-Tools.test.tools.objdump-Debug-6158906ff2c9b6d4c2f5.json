@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/test/tools/objdump",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/test/tools/objdump"
+	}
+}

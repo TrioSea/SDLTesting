@@ -1,0 +1,63 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 415,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/spirv-tools",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/include/spirv-tools/libspirv.h",
+				"vendor/SDL_shadercross/external/SPIRV-Tools/include/spirv-tools/libspirv.hpp",
+				"vendor/SDL_shadercross/external/SPIRV-Tools/include/spirv-tools/optimizer.hpp",
+				"vendor/SDL_shadercross/external/SPIRV-Tools/include/spirv-tools/linker.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/vendor/SDL_shadercross/external/SPIRV-Tools/SPIRV-Tools.pc",
+				"cmake-build-debug/vendor/SDL_shadercross/external/SPIRV-Tools/SPIRV-Tools-shared.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools"
+	}
+}

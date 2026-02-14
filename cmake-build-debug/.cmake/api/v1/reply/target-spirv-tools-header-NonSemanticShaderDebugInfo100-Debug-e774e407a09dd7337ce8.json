@@ -1,0 +1,84 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"spvtools_extinst_lang_headers"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/source/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 107,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 1
+			}
+		]
+	},
+	"folder" : 
+	{
+		"name" : "SPIRV-Tools build"
+	},
+	"id" : "spirv-tools-header-NonSemanticShaderDebugInfo100::@b3373e1cebf04ab55fe2",
+	"name" : "spirv-tools-header-NonSemanticShaderDebugInfo100",
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/source",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/source"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vendor/SDL_shadercross/external/SPIRV-Tools/source/CMakeFiles/spirv-tools-header-NonSemanticShaderDebugInfo100",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vendor/SDL_shadercross/external/SPIRV-Tools/source/CMakeFiles/spirv-tools-header-NonSemanticShaderDebugInfo100.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/vendor/SDL_shadercross/external/SPIRV-Tools/NonSemanticShaderDebugInfo100.h.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

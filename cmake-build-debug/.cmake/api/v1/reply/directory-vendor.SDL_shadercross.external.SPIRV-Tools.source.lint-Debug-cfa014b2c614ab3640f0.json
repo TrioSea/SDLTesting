@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/source/lint/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/lint/libSPIRV-Tools-lint.a"
+			],
+			"targetId" : "SPIRV-Tools-lint::@a170427293b058f94f89",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-lint",
+			"exportName" : "SPIRV-Tools-lintTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SPIRV-Tools-lint::@a170427293b058f94f89",
+					"index" : 6
+				}
+			],
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/lint/CMakeFiles/Export/b038fee00c494259622cd1359e0df5ef/SPIRV-Tools-lintTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-lint",
+			"paths" : 
+			[
+				"cmake-build-debug/SPIRV-Tools-lintConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/source/lint",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/source/lint"
+	}
+}

@@ -1,0 +1,229 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/tools/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 109,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-as"
+			],
+			"targetId" : "spirv-as::@e000ba557eb831f5ecb8",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-dis"
+			],
+			"targetId" : "spirv-dis::@e000ba557eb831f5ecb8",
+			"targetIndex" : 26,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-val"
+			],
+			"targetId" : "spirv-val::@e000ba557eb831f5ecb8",
+			"targetIndex" : 42,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-opt"
+			],
+			"targetId" : "spirv-opt::@e000ba557eb831f5ecb8",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-cfg"
+			],
+			"targetId" : "spirv-cfg::@e000ba557eb831f5ecb8",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-link"
+			],
+			"targetId" : "spirv-link::@e000ba557eb831f5ecb8",
+			"targetIndex" : 27,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-lint"
+			],
+			"targetId" : "spirv-lint::@e000ba557eb831f5ecb8",
+			"targetIndex" : 28,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-diff"
+			],
+			"targetId" : "spirv-diff::@e000ba557eb831f5ecb8",
+			"targetIndex" : 25,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-objdump"
+			],
+			"targetId" : "spirv-objdump::@e000ba557eb831f5ecb8",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/spirv-reduce"
+			],
+			"targetId" : "spirv-reduce::@e000ba557eb831f5ecb8",
+			"targetIndex" : 31,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-tools",
+			"exportName" : "SPIRV-Tools-toolsTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "spirv-as::@e000ba557eb831f5ecb8",
+					"index" : 15
+				},
+				{
+					"id" : "spirv-dis::@e000ba557eb831f5ecb8",
+					"index" : 26
+				},
+				{
+					"id" : "spirv-val::@e000ba557eb831f5ecb8",
+					"index" : 42
+				},
+				{
+					"id" : "spirv-opt::@e000ba557eb831f5ecb8",
+					"index" : 30
+				},
+				{
+					"id" : "spirv-cfg::@e000ba557eb831f5ecb8",
+					"index" : 16
+				},
+				{
+					"id" : "spirv-link::@e000ba557eb831f5ecb8",
+					"index" : 27
+				},
+				{
+					"id" : "spirv-lint::@e000ba557eb831f5ecb8",
+					"index" : 28
+				},
+				{
+					"id" : "spirv-diff::@e000ba557eb831f5ecb8",
+					"index" : 25
+				},
+				{
+					"id" : "spirv-objdump::@e000ba557eb831f5ecb8",
+					"index" : 29
+				},
+				{
+					"id" : "spirv-reduce::@e000ba557eb831f5ecb8",
+					"index" : 31
+				}
+			],
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/tools/CMakeFiles/Export/87f44607202295e5ca90098121db7dbe/SPIRV-Tools-toolsTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-tools",
+			"paths" : 
+			[
+				"cmake-build-debug/SPIRV-Tools-toolsConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/tools",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/tools"
+	}
+}

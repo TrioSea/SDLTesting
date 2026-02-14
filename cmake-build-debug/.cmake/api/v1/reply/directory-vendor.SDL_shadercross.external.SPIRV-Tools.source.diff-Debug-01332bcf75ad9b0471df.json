@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"vendor/SDL_shadercross/external/SPIRV-Tools/source/diff/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/diff/libSPIRV-Tools-diff.a"
+			],
+			"targetId" : "SPIRV-Tools-diff::@95260a09a86832a819b6",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-diff",
+			"exportName" : "SPIRV-Tools-diffTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "SPIRV-Tools-diff::@95260a09a86832a819b6",
+					"index" : 4
+				}
+			],
+			"paths" : 
+			[
+				"vendor/SDL_shadercross/external/SPIRV-Tools/source/diff/CMakeFiles/Export/03608eb3f150f1402addecfe75013231/SPIRV-Tools-diffTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/SPIRV-Tools-diff",
+			"paths" : 
+			[
+				"cmake-build-debug/SPIRV-Tools-diffConfig.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vendor/SDL_shadercross/external/SPIRV-Tools/source/diff",
+		"source" : "vendor/SDL_shadercross/external/SPIRV-Tools/source/diff"
+	}
+}
